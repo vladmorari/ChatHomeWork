@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #283747;
+}
+.chatName {
+  border-radius: 6px;
+  width: 38%;
+  height: 8em;
+  margin: auto;
+  margin-top: 15%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1d2731;
+  color: aqua;
+}
+#inputName {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+}
+#setNameButton {
+  margin-top: 20px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.chat {
+  border-radius: 6px;
+  width: 38%;
+  height: 8em;
+  margin: auto;
+  margin-top: 15%;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1d2731;
+  color: aqua;
+}
+.divRoot {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divName{
+    text-transform: capitalize;
+    margin: 4px;
+    color: #d8c400;
+  
+}
+.divMessage{
+    margin: 4px;
+    color: rgb(231, 245, 218);
+   
+} 
